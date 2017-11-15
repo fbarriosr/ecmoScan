@@ -1,0 +1,12 @@
+PODS:
+  - BarCodeReaderView (1.0.5)
+
+DEPENDENCIES:
+  - BarCodeReaderView
+
+SPEC CHECKSUMS:
+  BarCodeReaderView: 7920feedbb1dca5ce353cfea5aebac809df88d18
+
+PODFILE CHECKSUM: c4dc132c6c8feb1640ce30611f94e9c75be88390
+
+COCOAPODS: 1.1.1

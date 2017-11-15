@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		566BCCB51F70951400A825FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BCCB41F70951400A825FD /* AppDelegate.swift */; };
+		566BCCB71F70951400A825FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BCCB61F70951400A825FD /* ViewController.swift */; };
+		566BCCBA1F70951400A825FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566BCCB81F70951400A825FD /* Main.storyboard */; };
+		566BCCBD1F70951400A825FD /* EcmoScan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 566BCCBB1F70951400A825FD /* EcmoScan.xcdatamodeld */; };
+		566BCCBF1F70951400A825FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566BCCBE1F70951400A825FD /* Assets.xcassets */; };
+		566BCCC21F70951400A825FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 566BCCC01F70951400A825FD /* LaunchScreen.storyboard */; };
+		566BCCCD1F70951400A825FD /* EcmoScanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BCCCC1F70951400A825FD /* EcmoScanTests.swift */; };
+		566BCCD81F70951500A825FD /* EcmoScanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566BCCD71F70951500A825FD /* EcmoScanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		566BCCC91F70951400A825FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566BCCA91F70951400A825FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566BCCB01F70951400A825FD;
+			remoteInfo = EcmoScan;
+		};
+		566BCCD41F70951500A825FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 566BCCA91F70951400A825FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 566BCCB01F70951400A825FD;
+			remoteInfo = EcmoScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		566BCCB11F70951400A825FD /* EcmoScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcmoScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566BCCB41F70951400A825FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		566BCCB61F70951400A825FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		566BCCB91F70951400A825FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		566BCCBC1F70951400A825FD /* EcmoScan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcmoScan.xcdatamodel; sourceTree = "<group>"; };
+		566BCCBE1F70951400A825FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		566BCCC11F70951400A825FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		566BCCC31F70951400A825FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566BCCC81F70951400A825FD /* EcmoScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcmoScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566BCCCC1F70951400A825FD /* EcmoScanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcmoScanTests.swift; sourceTree = "<group>"; };
+		566BCCCE1F70951400A825FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		566BCCD31F70951500A825FD /* EcmoScanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcmoScanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		566BCCD71F70951500A825FD /* EcmoScanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcmoScanUITests.swift; sourceTree = "<group>"; };
+		566BCCD91F70951500A825FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		566BCCAE1F70951400A825FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566BCCC51F70951400A825FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566BCCD01F70951500A825FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		566BCCA81F70951400A825FD = {
+			isa = PBXGroup;
+			children = (
+				566BCCB31F70951400A825FD /* EcmoScan */,
+				566BCCCB1F70951400A825FD /* EcmoScanTests */,
+				566BCCD61F70951500A825FD /* EcmoScanUITests */,
+				566BCCB21F70951400A825FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		566BCCB21F70951400A825FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566BCCB11F70951400A825FD /* EcmoScan.app */,
+				566BCCC81F70951400A825FD /* EcmoScanTests.xctest */,
+				566BCCD31F70951500A825FD /* EcmoScanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		566BCCB31F70951400A825FD /* EcmoScan */ = {
+			isa = PBXGroup;
+			children = (
+				566BCCB41F70951400A825FD /* AppDelegate.swift */,
+				566BCCB61F70951400A825FD /* ViewController.swift */,
+				566BCCB81F70951400A825FD /* Main.storyboard */,
+				566BCCBE1F70951400A825FD /* Assets.xcassets */,
+				566BCCC01F70951400A825FD /* LaunchScreen.storyboard */,
+				566BCCC31F70951400A825FD /* Info.plist */,
+				566BCCBB1F70951400A825FD /* EcmoScan.xcdatamodeld */,
+			);
+			path = EcmoScan;
+			sourceTree = "<group>";
+		};
+		566BCCCB1F70951400A825FD /* EcmoScanTests */ = {
+			isa = PBXGroup;
+			children = (
+				566BCCCC1F70951400A825FD /* EcmoScanTests.swift */,
+				566BCCCE1F70951400A825FD /* Info.plist */,
+			);
+			path = EcmoScanTests;
+			sourceTree = "<group>";
+		};
+		566BCCD61F70951500A825FD /* EcmoScanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				566BCCD71F70951500A825FD /* EcmoScanUITests.swift */,
+				566BCCD91F70951500A825FD /* Info.plist */,
+			);
+			path = EcmoScanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566BCCB01F70951400A825FD /* EcmoScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566BCCDC1F70951500A825FD /* Build configuration list for PBXNativeTarget "EcmoScan" */;
+			buildPhases = (
+				566BCCAD1F70951400A825FD /* Sources */,
+				566BCCAE1F70951400A825FD /* Frameworks */,
+				566BCCAF1F70951400A825FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcmoScan;
+			productName = EcmoScan;
+			productReference = 566BCCB11F70951400A825FD /* EcmoScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		566BCCC71F70951400A825FD /* EcmoScanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566BCCDF1F70951500A825FD /* Build configuration list for PBXNativeTarget "EcmoScanTests" */;
+			buildPhases = (
+				566BCCC41F70951400A825FD /* Sources */,
+				566BCCC51F70951400A825FD /* Frameworks */,
+				566BCCC61F70951400A825FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566BCCCA1F70951400A825FD /* PBXTargetDependency */,
+			);
+			name = EcmoScanTests;
+			productName = EcmoScanTests;
+			productReference = 566BCCC81F70951400A825FD /* EcmoScanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		566BCCD21F70951500A825FD /* EcmoScanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566BCCE21F70951500A825FD /* Build configuration list for PBXNativeTarget "EcmoScanUITests" */;
+			buildPhases = (
+				566BCCCF1F70951500A825FD /* Sources */,
+				566BCCD01F70951500A825FD /* Frameworks */,
+				566BCCD11F70951500A825FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				566BCCD51F70951500A825FD /* PBXTargetDependency */,
+			);
+			name = EcmoScanUITests;
+			productName = EcmoScanUITests;
+			productReference = 566BCCD31F70951500A825FD /* EcmoScanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		566BCCA91F70951400A825FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RentalApps;
+				TargetAttributes = {
+					566BCCB01F70951400A825FD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Y7A6GRU4X;
+						ProvisioningStyle = Automatic;
+					};
+					566BCCC71F70951400A825FD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Y7A6GRU4X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 566BCCB01F70951400A825FD;
+					};
+					566BCCD21F70951500A825FD = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2Y7A6GRU4X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 566BCCB01F70951400A825FD;
+					};
+				};
+			};
+			buildConfigurationList = 566BCCAC1F70951400A825FD /* Build configuration list for PBXProject "EcmoScan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 566BCCA81F70951400A825FD;
+			productRefGroup = 566BCCB21F70951400A825FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566BCCB01F70951400A825FD /* EcmoScan */,
+				566BCCC71F70951400A825FD /* EcmoScanTests */,
+				566BCCD21F70951500A825FD /* EcmoScanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566BCCAF1F70951400A825FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566BCCC21F70951400A825FD /* LaunchScreen.storyboard in Resources */,
+				566BCCBF1F70951400A825FD /* Assets.xcassets in Resources */,
+				566BCCBA1F70951400A825FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566BCCC61F70951400A825FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566BCCD11F70951500A825FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		566BCCAD1F70951400A825FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566BCCBD1F70951400A825FD /* EcmoScan.xcdatamodeld in Sources */,
+				566BCCB71F70951400A825FD /* ViewController.swift in Sources */,
+				566BCCB51F70951400A825FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566BCCC41F70951400A825FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566BCCCD1F70951400A825FD /* EcmoScanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566BCCCF1F70951500A825FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				566BCCD81F70951500A825FD /* EcmoScanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		566BCCCA1F70951400A825FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566BCCB01F70951400A825FD /* EcmoScan */;
+			targetProxy = 566BCCC91F70951400A825FD /* PBXContainerItemProxy */;
+		};
+		566BCCD51F70951500A825FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 566BCCB01F70951400A825FD /* EcmoScan */;
+			targetProxy = 566BCCD41F70951500A825FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		566BCCB81F70951400A825FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566BCCB91F70951400A825FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		566BCCC01F70951400A825FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				566BCCC11F70951400A825FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		566BCCDA1F70951500A825FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		566BCCDB1F70951500A825FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		566BCCDD1F70951500A825FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = EcmoScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.EcmoScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		566BCCDE1F70951500A825FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = EcmoScan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.EcmoScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		566BCCE01F70951500A825FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = EcmoScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.EcmoScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcmoScan.app/EcmoScan";
+			};
+			name = Debug;
+		};
+		566BCCE11F70951500A825FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = EcmoScanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.EcmoScanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EcmoScan.app/EcmoScan";
+			};
+			name = Release;
+		};
+		566BCCE31F70951500A825FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = EcmoScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.EcmoScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EcmoScan;
+			};
+			name = Debug;
+		};
+		566BCCE41F70951500A825FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = EcmoScanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.EcmoScanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = EcmoScan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		566BCCAC1F70951400A825FD /* Build configuration list for PBXProject "EcmoScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566BCCDA1F70951500A825FD /* Debug */,
+				566BCCDB1F70951500A825FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566BCCDC1F70951500A825FD /* Build configuration list for PBXNativeTarget "EcmoScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566BCCDD1F70951500A825FD /* Debug */,
+				566BCCDE1F70951500A825FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566BCCDF1F70951500A825FD /* Build configuration list for PBXNativeTarget "EcmoScanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566BCCE01F70951500A825FD /* Debug */,
+				566BCCE11F70951500A825FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566BCCE21F70951500A825FD /* Build configuration list for PBXNativeTarget "EcmoScanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566BCCE31F70951500A825FD /* Debug */,
+				566BCCE41F70951500A825FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		566BCCBB1F70951400A825FD /* EcmoScan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				566BCCBC1F70951400A825FD /* EcmoScan.xcdatamodel */,
+			);
+			currentVersion = 566BCCBC1F70951400A825FD /* EcmoScan.xcdatamodel */;
+			path = EcmoScan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 566BCCA91F70951400A825FD /* Project object */;
+}
